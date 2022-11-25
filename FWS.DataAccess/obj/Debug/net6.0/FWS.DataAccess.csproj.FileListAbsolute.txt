@@ -1,0 +1,17 @@
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\bin\Debug\net6.0\FWS.DataAccess.deps.json
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\bin\Debug\net6.0\FWS.DataAccess.runtimeconfig.json
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\bin\Debug\net6.0\FWS.DataAccess.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\bin\Debug\net6.0\FWS.DataAccess.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\bin\Debug\net6.0\FWS.Models.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\bin\Debug\net6.0\FWS.Models.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.csproj.AssemblyReference.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.AssemblyInfoInputs.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.AssemblyInfo.cs
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.csproj.CopyComplete
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\refint\FWS.DataAccess.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\FWS.DataAccess.genruntimeconfig.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.DataAccess\obj\Debug\net6.0\ref\FWS.DataAccess.dll

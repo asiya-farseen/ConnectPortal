@@ -1,0 +1,79 @@
+﻿@model FWS.Models.ViewModels.ProjectVM
+
+<form method="post" asp-action="Upsert">
+    <input asp-for="Project.projId" hidden />
+    <div class="border p-3 mt-4 row">
+        <div class="row pb-2">
+            <h2>@(Model.Project.projId!=0?"Update": "Create") Project</h2>
+            <hr />
+        </div>
+        @*@Html.HiddenFor(m => m.)*@
+        <div class="mb-3">
+            <label asp-for="Project.ProjName">Name</label>
+            <input asp-for="Project.ProjName" class="form-control" placeholder="E.g. Flatworld Connect" />
+            <span asp-validation-for="Project.ProjName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Project.description">Description</label>
+            <textarea asp-for="Project.description" class="form-control" rows="3" placeholder="Describe the project"></textarea>
+            <span asp-validation-for="Project.description" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-6">
+            <label asp-for="Project.startDate">Start Date</label>
+            <input asp-for="Project.startDate" class="form-control" placeholder="DD-MM-YYYY" />
+            <span asp-validation-for="Project.startDate" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3 col-6">
+            <label asp-for="Project.EndDate">End Date</label>
+            <input asp-for="Project.EndDate" class="form-control" placeholder="DD-MM-YYYY" />
+        </div>
+        <div class="mb-3 col-6">
+            <label asp-for="Project.CustomercustId">Customer</label>
+            <select asp-for="Project.CustomercustId" asp-items="@Model.CustomerList" class="form-select">
+                <option disabled selected>--Select Customer--</option>
+            </select>
+            <span asp-validation-for="Project.CustomercustId" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-6">
+            <label asp-for="Project.ProjectManagerpmId">Project Manager</label>
+            <select asp-for="Project.ProjectManagerpmId" asp-items="@Model.ProjectManagerList" class="form-select">
+                <option disabled selected>--Select Project Manager--</option>
+            </select>
+            <span asp-validation-for="Project.ProjectManagerpmId" class="text-danger"></span>
+        </div>
+        @*    <div class="mb-3">
+            <label asp-for="PMZipCode">Zip Code</label>
+            <input asp-for="PMZipCode" class="form-control" placeholder="E.g. 560001" />
+            <span asp-validation-for="PMZipCode" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+            <label asp-for="PMPassword">Password</label>
+            <input asp-for="PMPassword" class="form-control" placeholder="Set the password for the PM which can be used by the PM to login to FWC" />
+            <span asp-validation-for="PMPassword" class="text-danger"></span>
+
+        </div>
+        
+*@      
+<div class="col-12">
+    @if(Model.Project.projId!=0){
+                <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+    }
+    else{
+<button type="submit" class="btn btn-primary" style="width:150px">Create</button>
+    }
+
+        <a asp-controller="Project" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back
+        </a></div>
+    </div>
+
+</form>
+
+@section Scripts{
+
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    }

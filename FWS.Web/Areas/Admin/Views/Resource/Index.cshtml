@@ -1,0 +1,37 @@
+﻿
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h4 class="text-primary">Resource List</h4>
+        </div>
+        <div class="col-6  text-end">
+            <a asp-controller="Resource" asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> &nbsp CREATE NEW Resource
+            </a>
+        </div>
+    </div>
+    <br />
+
+
+
+
+    <table id="tblData" class="table table-bordered table-striped" stylestyle="width:100%">
+        <thead>
+            <tr>
+                <th>JobTitle</th>
+                <th>SkillSet</th>
+                <th>Experience</th>
+                <th>StartDateOfJob</th>
+                <th>EndDateOfJob</th>
+                <th>NumberOfResource</th>
+                <th>Customer Name</th>
+                <th>Project Name</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+
+</div>
+@section Scripts{
+    <script src="~/js/Resource.js"></script>
+}

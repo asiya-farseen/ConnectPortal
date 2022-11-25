@@ -1,0 +1,74 @@
+﻿@model IEnumerable<FWS.Models.ProjectManager>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h4 class="text-primary">Managers List</h4>
+        </div>
+        <div class="col-6  text-end">
+<a  asp-controller="ProjectManager" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> &nbsp CREATE NEW Project Manager
+            </a>
+        </div>
+    </div>
+    <br />
+   
+
+
+
+<table class="table table-bordered table-striped" stylestyle="width:100%">
+    <thead>
+        <tr>
+            <th>customer Name</th>
+                <th>customer Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Pin Code</th>
+                <th>password</th>
+          
+                  <th></th>
+                 
+            </tr>
+            </thead>
+            <tbody>
+                @foreach(var obj in Model)
+                {
+                    <tr>
+                        <td width="20%">
+                            @obj.ManagerName
+                        </td>
+                          <td width="20%">
+                            @obj.pmEmail
+                        </td>
+                    <td width="20%">
+                        @obj.pmPhone
+                    </td>
+                    <td width="20%">
+                        @obj.pmAddress
+                    </td>
+                    <td width="20%">
+                        @obj.pmPinCode
+                    </td>
+                    <td width="20%">
+                        @obj.pmPassword
+                    </td>
+                
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                            <a asp-controller="ProjectManager" asp-action="Edit" asp-route-PmId="@obj.pmId"
+                           class="btn btn-primary mx-2"><i class="bi bi-pencil-square"></i>Edit</a>
+                 
+                            <a asp-controller="ProjectManager" asp-action="Delete" asp-route-PmId="@obj.pmId"
+                           class="btn btn-danger mx-2">
+                                <i class="bi bi-trash"></i>Delete</a>
+                        </div>
+                    </td>
+                    </tr>
+                }
+            </tbody>
+</table>
+</div>

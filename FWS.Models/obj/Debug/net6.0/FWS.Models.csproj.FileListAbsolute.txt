@@ -1,0 +1,12 @@
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\bin\Debug\net6.0\FWS.Models.deps.json
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\bin\Debug\net6.0\FWS.Models.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\bin\Debug\net6.0\FWS.Models.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.csproj.AssemblyReference.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.AssemblyInfoInputs.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.AssemblyInfo.cs
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.csproj.CoreCompileInputs.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\refint\FWS.Models.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\FWS.Models.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Models\obj\Debug\net6.0\ref\FWS.Models.dll

@@ -1,0 +1,44 @@
+﻿@model FWS.Models.Customer
+<form method="post">
+    <a href="c:\users\farseen.a\desktop\asiyafarseen\connect\fws.web\areas\admin\views\customer\edit.cshtml">c:\users\farseen.a\desktop\asiyafarseen\connect\fws.web\areas\admin\views\customer\edit.cshtml</a>
+    <div class="row p-3 mt-4">
+        <h4 class="text-primary">EDIT CUSTOMER</h4>
+        <hr />
+    </div>
+    @*     <div asp-validation-summary="All"></div>*@
+    <div class="mb-3">
+        <label asp-for="CustName"></label>
+        <input asp-for="CustName" class="form-control" />
+        <span asp-validation-for="CustName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" class="form-control" />
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Mobile"></label>
+        <input asp-for="Mobile" class="form-control" />
+        <span asp-validation-for="Mobile" class="text-danger"></span>
+    </div>
+    <button tye="submit" class="btn btn-primary" style="width:150px">Update</button>
+    <a asp-controller="Customer" asp-action="Index" class="btn btn-secondary" style="width:150px">
+        Back To List
+    </a>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    }

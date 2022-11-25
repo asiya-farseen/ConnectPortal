@@ -1,0 +1,45 @@
+﻿@model FWS.Models.Customer
+<form method="post" asp-action="DeletePOST">
+    <input asp-for="custId" hidden/>
+    <div class="row p-3 mt-4">
+        <h4 class="text-primary">Delete CUSTOMER</h4>
+        <hr />
+    </div>
+    @*     <div asp-validation-summary="All"></div>*@
+    <div class="mb-3">
+
+        <label asp-for="CustName"></label>
+        <input asp-for="CustName" disabled class="form-control" />
+       
+    </div>
+    <div class="mb-3">
+        <label asp-for="Address"></label>
+        <input asp-for="Address" disabled class="form-control" />
+      
+    </div>
+    <div class="mb-3">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" disabled class="form-control" />
+        
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" disabled class="form-control" />
+    
+    </div>
+    <div class="mb-3">
+        <label asp-for="Mobile"></label>
+        <input asp-for="Mobile" disabled class="form-control" />
+        
+    </div>
+    <button tye="submit" class="btn btn-danger" style="width:150px">Delete</button>
+    <a asp-controller="Customer" asp-action="Index" class="btn btn-secondary" style="width:150px">
+        Back To List
+    </a>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    }

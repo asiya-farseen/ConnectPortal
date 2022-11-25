@@ -1,0 +1,12 @@
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\bin\Debug\net6.0\FWS.Utility.deps.json
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\bin\Debug\net6.0\FWS.Utility.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\bin\Debug\net6.0\FWS.Utility.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.csproj.AssemblyReference.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.AssemblyInfoInputs.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.AssemblyInfo.cs
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.csproj.CoreCompileInputs.cache
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\refint\FWS.Utility.dll
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\FWS.Utility.pdb
+C:\Users\farseen.a\Desktop\AsiyaFarseen\connect\FWS.Utility\obj\Debug\net6.0\ref\FWS.Utility.dll

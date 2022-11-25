@@ -1,0 +1,56 @@
+﻿@model FWS.Models.ProjectManager
+<form method="post" asp-action="DeletePOST">
+    <input asp-for="pmId" hidden/>
+    <div class="row p-3 mt-4">
+        <h4 class="text-primary">Delete Project Manager</h4>
+        <hr />
+    </div>
+    @*     <div asp-validation-summary="All"></div>*@
+    <div class="mb-3">
+
+        <label asp-for="ManagerName"></label>
+        <input asp-for="ManagerName" disabled class="form-control" />
+       
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="pmEmail"></label>
+        <input asp-for="pmEmail" disabled class="form-control" />
+
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="pmPhone"></label>
+        <input asp-for="pmPhone" disabled class="form-control" />
+
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="pmAddress"></label>
+        <input asp-for="pmAddress" disabled class="form-control" />
+
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="pmPinCode"></label>
+        <input asp-for="pmPinCode" disabled class="form-control" />
+
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="pmPassword"></label>
+        <input asp-for="pmPassword" disabled class="form-control" />
+
+    </div>
+    
+    <button tye="submit" class="btn btn-danger" style="width:150px">Delete</button>
+    <a asp-controller="ProjectManager" asp-action="Index" class="btn btn-secondary" style="width:150px">
+        Back To List
+    </a>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    }
